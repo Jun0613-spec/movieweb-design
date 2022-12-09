@@ -1,0 +1,257 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Sen:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Movie Website</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-container">
+        <div class="logo-container"><h1 class="logo">CHILLFLIX</h1></div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <p class="menu-list-item active">Home</p>
+            <p class="menu-list-item">Movies</p>
+            <p class="menu-list-item">Series</p>
+            <p class="menu-list-item">Popular</p>
+            <p class="menu-list-item">Trends</p>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <img class="profile-picture" src="img/profile.jpg" alt="" />
+          <div class="profile-text-container">
+            <span class="profile-text">Profile</span>
+            <i class="fa-solid fa-sort-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fa-solid fa-moon toggle-icon"></i>
+            <i class="fa-solid fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+      <i class="left-menu-icon fa-solid fa-house-user"></i>
+      <i class="left-menu-icon fa-solid fa-users"></i>
+      <i class="left-menu-icon fa-solid fa-bookmark"></i>
+      <i class="left-menu-icon fa-solid fa-tv"></i>
+      <i class="left-menu-icon fa-solid fa-hourglass-start"></i>
+      <i class="left-menu-icon fa-solid fa-cart-shopping"></i>
+    </div>
+    <div class="container">
+      <div class="content-container">
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+              url('img/f-1.jpg');
+          "
+        >
+          <img class="featured-title" src="img/f-t-1.png" alt="" />
+          <p class="featured-desc">
+            Rip-roaring revenge actioner set in the American South just two
+            years before the Civil War. It follows Django, a slave freed and
+            trained as a bounty hunter by sophisticated German-born Dr. King
+            Schultz, who is appalled by the racist ways of the antebellum South.
+          </p>
+          <button class="featured-button">WATCH</button>
+        </div>
+
+        <!-- new release -->
+
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">New Release</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/8.jpg" alt="" />
+                <span class="movie-list-item-title">Black Adam</span>
+                <p class="movie-list-item-desc">
+                  In ancient Kahndaq, Teth Adam was bestowed the almighty powers
+                  of the gods. After using these powers for vengeance, he was
+                  imprisoned, becoming Black Adam. Nearly 5,000 years have
+                  passed, Now free,is challenged by heroes who form the Justice
+                  Society
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/9.jpg" alt="" />
+                <span class="movie-list-item-title">Bullet Train</span>
+                <p class="movie-list-item-desc">
+                  The bullet train is a type of passenger train which operates
+                  on Japan's high-speed railway network. Capable of reaching a
+                  maximum speed of 320kms per hour, the bullet train offers
+                  riders an exceptionally unique and efficient travel
+                  experience.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/10.jpg" alt="" />
+                <span class="movie-list-item-title">The Batmam</span>
+                <p class="movie-list-item-desc">
+                  A reclusive billionaire who obsessively protects Gotham City
+                  as a masked vigilante to cope with his traumatic past. Batman
+                  is around 30 years old and is not yet an experienced crime
+                  fighter.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/11.jpg" alt="" />
+                <span class="movie-list-item-title">Top Gun: Maverick</span>
+                <p class="movie-list-item-desc">
+                  After more than 30 years of service as one of the Navy's top
+                  aviators, Pete "Maverick" Mitchell is where he belongs,
+                  pushing the envelope as a courageous test pilot and dodging
+                  the advancement in rank that would ground him.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/12.jpg" alt="" />
+                <span class="movie-list-item-title">Memory</span>
+                <p class="movie-list-item-desc">
+                  Alex Lewis is a hired assassin at a turning point. Living in
+                  El Paso, Texas, and coming to grips with a faltering memory
+                  just as he plans to retire, Alex is ready to conclude a long
+                  career of violence and secrecy when an old contact gives him a
+                  final assignment.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/13.jpg" alt="" />
+                <span class="movie-list-item-title">Hustle</span>
+                <p class="movie-list-item-desc">
+                  NBA scout who discovers a raw but talented basketball player
+                  in Spain and tries to prepare him for the NBA draft.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/14.jpg" alt="" />
+                <span class="movie-list-item-title">The Gray Man </span>
+                <p class="movie-list-item-desc">
+                  When the CIA's top asset -- his identity known to no one --
+                  uncovers agency secrets, he triggers a global hunt by
+                  assassins set loose by his ex-colleague.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+
+        <!-- trending -->
+
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">Trending Now</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/1.jpeg" alt="" />
+                <span class="movie-list-item-title">Her</span>
+                <p class="movie-list-item-desc">
+                  A sensitive and soulful man earns a living by writing
+                  personal. Theodore becomes fascinated with a new operating
+                  system which reportedly develops into an intuitive and unique
+                  entity in its own right.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/2.jpeg" alt="" />
+                <span class="movie-list-item-title">Star Wars</span>
+                <p class="movie-list-item-desc">
+                  A space opera set “a long time ago in a galaxy far, far away,”
+                  the film centres on Luke Skywalker a young man who finds
+                  himself embroiled in an interplanetary war between an
+                  authoritarian empire and rebel forces.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/3.jpg" alt="" />
+                <span class="movie-list-item-title">Parasite</span>
+                <p class="movie-list-item-desc">
+                  Follows a poor family who scheme to become employed by a
+                  wealthy family and infiltrate their household by posing as
+                  unrelated, highly qualified individuals.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/4.jpg" alt="" />
+                <span class="movie-list-item-title">1917</span>
+                <p class="movie-list-item-desc">
+                  During World War I, two British soldiers receive seemingly
+                  impossible orders. In a race against time, they must cross
+                  over into enemy territory to deliver a message that could
+                  potentially save 1,600 of their fellow comrades -- including
+                  Blake's own brother.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/5.jpg" alt="" />
+                <span class="movie-list-item-title">Avengers</span>
+                <p class="movie-list-item-desc">
+                  S.H.I.E.L.D. director Nick Fury assembles Iron Man, Captain
+                  America, Hulk, Thor, Black Widow and Hawkeye to battle Thor's
+                  adoptive brother, Loki, who attempts to subjugate humanity by
+                  leading an invasion by the extraterrestrial race known as the
+                  Chitauri.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/6.jpg" alt="" />
+                <span class="movie-list-item-title">The Gentlemen</span>
+                <p class="movie-list-item-desc">
+                  An American expat tries to sell off his highly profitable
+                  marijuana empire in London, triggering plots, schemes, bribery
+                  and blackmail in an attempt to steal his domain out from under
+                  him.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+              <div class="movie-list-item">
+                <img class="movie-list-item-img" src="img/7.jpg" alt="" />
+                <span class="movie-list-item-title">Rick and Morty</span>
+                <p class="movie-list-item-desc">
+                  Rick and Morty is the Emmy award-winning half-hour animated
+                  hit comedy series on Adult Swim that follows a sociopathic
+                  genius scientist who drags his inherently timid grandson on
+                  insanely dangerous adventures across the universe.
+                </p>
+                <button class="movie-list-item-button">Watch</button>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
